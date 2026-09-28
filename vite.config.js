@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // Example: base: '/NeuroShield-3D-Pipeline/'
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/NeuroShield-3D-Pipeline/',
   build: {
     outDir: 'dist',
   },
